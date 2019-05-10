@@ -1,0 +1,193 @@
+@charset "utf-8";
+/*
+ * 파일명:		common.css
+ * 설명:		초기화 기본 css
+ * 작성자:
+ * 최초생성일:	2018/03/14
+ * 최종수정일:	2018/03/14
+ */
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Header 영역 버튼 */
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/*util btn*/
+.btnu_right_change{display:inline-block; height:21px; line-height:19px; padding:0 12px; background-color: #bf85a0; color:#fff; font-size:12px; text-decoration: none;}
+.btnu_right_change span{}
+.btnu_right_change:hover{background-color:#ce307a;text-decoration: none;}
+.btnu_right_change:hover span{}
+.btnu_right_change i {margin-right: 5px;}
+
+.btnu_login,
+.btnu_logout {display:inline-block; /*height:21px; line-height:21px;*/ padding:4px 10px 5px 27px; color:#fff; background:#0e3d8c url(../images/key_icon.png) 10px center no-repeat; border-radius:3px; font-size:11px; text-align:center;text-decoration: none;}
+.btnu_logout,
+.btnu_login:hover{background-color:#6e6e6e;text-decoration: none;}
+
+/*dashboard- 공지사항등 더보기*/
+.btna_more {color:#222;font-size:13px;margin-right:10px;text-decoration: none;}
+
+input[type=file].tbtn_lpos {min-width:68px; background-color:#fff;color:#c61065;
+	display:inline-block;height:22px; text-align:center;letter-spacing:-0.5px;
+	font-size:12px; line-height:20px; padding:0 0 0;vertical-align:top;text-decoration: none;}
+
+/* 검색 TABLE 중복체크 height:24px tableinner butn height = inputbox*/
+input[type=button].tbtn_lpos {min-width:68px; background-color:#fff;border:solid 1px #c61065;color:#c61065;
+	display:inline-block;height:22px; text-align:center;letter-spacing:-0.5px;
+	font-size:12px; line-height:20px; padding:0 0 0;vertical-align:top;text-decoration: none;}
+
+a.tbtn_lpos,
+a.tbtn_gray,
+a.tbtn_pos,
+a.tbtn_pos2,
+a.tbtn_black {min-width:68px; background-color:#fff;border:solid 1px #c61065;color:#c61065;
+	display:inline-block;height:22px; text-align:center;letter-spacing:-0.5px;
+	font-size:12px; line-height:20px; padding:0 0 0;vertical-align:top;text-decoration: none;}
+   a.tbtn_lpos span {text-decoration: none;}
+
+/* colorchip */
+a.tbtn_pos {min-width:68px; background-color:#c61065;border:solid 1px #c61065;color:#fff;}
+a.tbtn_pos2 {min-width:68px; background-color:#769dc6;border:solid 1px #769dc6;color:#fff;}
+a.tbtn_gray {min-width:68px; background-color:#888;border:solid 1px #888;color:#fff;}
+a.tbtn_pos:hover {background-color:#769dc6;border:solid 1px #6b910a;}
+a.tbtn_pos2:hover {background-color:#024287;border:solid 1px #024287;}
+a.tbtn_gray:hover { background-color:#666;border:solid 1px #666;}
+
+/* 라운드 박스 */
+.roundBox_Btn { background:#294c9d; text-align:center; color:#fff; font-size:13px; border-radius:3px; display:inline-block; width:61px; height:24px; line-height:24px; vertical-align:middle; margin:0 0 0 5px;}
+.roundLine_Btn { background:#fff; border:1px solid #294c9d; text-align:center; color:#294c9d; font-size:13px; border-radius:3px; display:inline-block; width:61px; height:24px; line-height:24px; vertical-align:middle; margin:0 0 0 5px; box-sizing:border-box;} /* 라운드 라인 */
+.roundBox_gray_Btn { background:#e2e2e2; text-align:center; color:#222; font-size:13px; border-radius:3px; display:inline-block; width:61px; height:24px; line-height:24px; vertical-align:middle; margin:0 0 0 5px;}
+
+
+/* selBG */
+.selBG_g select { background:#e5e5e5 !important;}
+
+
+/*table inner small line button 22px*/
+a.sbtn_lpos,
+a.sbtn_lblack {min-width:40px; background-color:#fff;border:solid 1px #c61065;color:#c61065;
+	display:inline-block;height:20px; text-align:center;letter-spacing:-0.5px;
+	font-size:11px; line-height:18px; padding:0 0 0;vertical-align:top;text-decoration: none !important;border-radius:3px;}
+
+a.sbtn_lpos {background-color:#fff;border:solid 1px #c61065;color:#c61065;text-decoration: none;}
+a.sbtn_lblack {background-color:#fff;border:solid 1px #333;color:#333;text-decoration: none;}
+a.sbtn_lpos:hover  {text-decoration: none; color:#c61065 !important;}
+a.sbtn_lblack:hover {text-decoration: none; color:#333 !important;}
+
+
+/* Button height:34px*/
+a.fbtn_gray,
+a.fbtn_pos,
+a.fbtn_pos2,
+a.fbtn_black{margin:0 2px;display:inline-block;height:25px; text-align:center;letter-spacing:-0.5px;font-size:12px; line-height:23px; padding:0 15px 0;vertical-align:top; border-radius:0;text-decoration: none;}
+
+
+/* colorchip */
+a.fbtn_pos {min-width:38px; background-color:#89b51b;border:solid 1px #89b51b;color:#fff;}
+a.fbtn_pos2 {min-width:38px; background-color:#bf85a0;border:solid 1px #bf85a0;color:#fff;}
+a.fbtn_gray {min-width:38px; background-color:#888;border:solid 1px #888;color:#fff;}
+a.fbtn_black {min-width:38px; background-color:#333;border:solid 1px #191919;color:#fff; vertical-align:text-bottom;}
+
+a.fbtn_pos:hover {background-color:#6b910a;border:solid 1px #6b910a;}
+a.fbtn_pos2:hover {background-color:#024287;border:solid 1px #024287;}
+a.fbtn_gray:hover { background-color:#666;border:solid 1px #666;}
+a.fbtn_black:hover { background-color:#191919;border:solid 1px #191919;}
+
+
+/* Button height:34px*/
+a.btn_gray,
+a.btn_pos,
+a.btn_pos2,
+a.btn_black{
+	margin:0 2px 0;
+	display:inline-block;
+	height:27px;
+	text-align:center;
+	letter-spacing:-0.5px;
+	font-size:13px;
+	line-height:27px;
+	padding:0 0;
+	vertical-align:top;
+	border-radius:0;
+	text-decoration: none;
+	font-weight:500;}
+
+
+/* colorchip */
+a.btn_pos {min-width:61px; background-color:#294c9d;border:solid 1px #294c9d;color:#fff;}
+a.btn_pos2 {min-width:61px; background-color:#bf85a0;border:solid 1px #bf85a0;color:#fff;}
+a.btn_gray {min-width:61px; background-color:#e2e2e2;border:solid 1px #e2e2e2;color:#222;}
+a.btn_black {min-width:61px; background-color:#333;border:solid 1px #191919;color:#fff; vertical-align:text-bottom;}
+
+a.btn_pos:hover {background-color:#002859;border:solid 1px #002859;}
+a.btn_pos2:hover {background-color:#002859;border:solid 1px #002859;}
+a.btn_gray:hover { background-color:#c9c9c9;border:solid 1px #c9c9c9;}
+a.btn_black:hover { background-color:#191919;border:solid 1px #191919;}
+
+
+/* 테이블 버튼 -  */
+
+a.tbtn_ico_delete,
+a.tbtn_ico_up,
+a.tbtn_ico_down { overflow:hidden; width:18px; height:18px; border:1px solid #858585; text-indent:-9999px; border-radius:2px; /*background-image:url(../images/common/sp_ico.png); background-position:no-repeat;*/ }
+
+a.tbtn_ico_delete { background-position:5px 5px; }
+a.tbtn_ico_up { background-position:6px -15px; }
+a.tbtn_ico_down { background-position:6px -35px; }
+
+a.btn_white_add {min-width:68px; background-color:#fff;border:solid 1px #ccc;color:#555555;}
+a.btn_white_add {margin:0 2px;display:inline-block;height:33px; text-align:center;letter-spacing:-0.5px;
+	font-size:12px; line-height:30px; padding:0 15px 0;vertical-align:top; border-radius:2px;
+	box-shadow: 0 -1px 0 rgba(156, 156, 156, 0.1) inset;
+	-webkit-box-shadow: 0 -1px 0 rgba(156, 156, 156, 0.1) inset;
+	-moz-box-shadow: 0 -1px 0 rgba(156, 156, 156, 0.1) inset;
+	box-sizing:border-box;}
+a.btn_white_add span { display:inline-block; padding-left:12px; /*background:url(../images/common/sp_ico.png) 0 -49px no-repeat;*/ }
+
+/*테이블 inner*/
+.tbtn_file_down{display:inline-block; width:22px; height:22px; border:1px solid #e0e0e0; /*background:url(../images/common/icon_down.gif) center center no-repeat;*/ vertical-align:middle;}
+.tbtn_file_down span{display:inline-block; width:22px; height:22px; font-size:0; text-indent:-9999px;}
+.tbtn_file_down:hover {border-color:#c61065;}
+.tbtn_file_img{display:inline-block; width:22px; height:22px; border:1px solid; /*translate; background:url(../images/common/icon_img.png) center center no-repeat;*/ vertical-align:middle;}
+.tbtn_file_img span{display:inline-block; width:22px; height:22px; font-size:0; text-indent:-9999px;}
+
+.btn_box_line { background:#fff; border:1px solid #d8d8d8; height:25px; line-height:25px; text-align:center; color:#002859; font-size:13px; font-weight:600; padding:0 18px; display:inline-block;}
+
+/* 업로드 버튼 */
+.file_upload_box{width:auto; max-width:100%; height:auto; text-decoration:none;}
+.file_upload_box input[type="file"]{position:absolute; z-index:1; top:-99999px; left:0;}
+.file_upload_box input[type="text"]{vertical-align:middle;}
+
+.file_upload_box .ipt_file{position:absolute; z-index:1; top:-99999px; left:0;}
+.file_upload_box .ipt_mod{border:0 !important; text-decoration:underline; }
+.file_upload_box a{text-decoration:none; vertical-align:middle;}
+
+.btn_file_upload{display:inline-block; height:24px; padding:0 15px; line-height:22px; text-align:center;  background-color:#bf85a0;}
+.btn_file_upload:hover{background-color:#8f6277;}
+.btn_file_upload span{font-size:12px; font-weight:700; color:#fff; }
+
+.btn_stu_achk,
+.btn_stu_achange,
+.btn_stu_add ,
+.btn_stu_list {display:inline-block; height:18px; line-height:16px; padding:5px 10px; background-color:#fff; border:1px solid #aaadb4;border-radius: 2px;letter-spacing: -1px;}
+
+.btn_stu_achk span,
+.btn_stu_achange span,
+.btn_stu_add span,
+.btn_stu_list span{font-size:12px; color:#0f1c35;}
+.btn_stu_achk span i,
+.btn_stu_achange span i,
+.btn_stu_add span i,
+.btn_stu_list span i {margin-top:3px;margin-right:3px;}
+.btn_stu_achk:hover,
+.btn_stu_achange:hover,
+.btn_stu_add:hover,
+.btn_stu_list:hover {text-decoration: none;}
+
+.btn_stu_att_edit {}
+
+.btn_stu_rock,
+.btn_stu_search,
+.btn_stu_noti {display: inline-block;font-size:12px; color:#0f1c35;}
+
+.btn_stu_rock span i,
+.btn_stu_search span i,
+.btn_stu_noti span i {margin-top:3px;margin-right:3px;}
