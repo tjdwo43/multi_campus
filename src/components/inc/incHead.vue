@@ -3,7 +3,7 @@
     <!-- s:logo -->
     <div class="logo_box">
       <h1>
-        <img src="../assets/images/mul_cam.png" alt="서울대학교" />
+        <img src="../../assets/images/mul_cam.png" alt="서울대학교" />
         <!--<img src="resource/images/logo.png" alt="서울대학교" />-->
       </h1>
     </div>
@@ -37,7 +37,7 @@
 
 <script>
 export default {
-  name: 'head',
+  name: 'incHead',
   data () {
     return {
 

@@ -11,7 +11,7 @@
 #leftTTl { display:none; position:relative; background:#5565b0; height:65px; line-height:65px; font-size:18px; color:#fff; padding:0 0 0 31px;}
 #leftTTl:before { content:''; position:absolute; left:20px; top:25px; width:3px; height:17px; background:#f37060;}
 #leftContainer { position:absolute; z-index:40; left:0; top:0; padding-top:75px; box-sizing:border-box; width:200px; height:auto; min-height:100%; background-color:#002859;}
-#rightContainer{ width:auto; height:auto; padding-top:24px; padding-bottom:30px; padding-left:230px; box-sizing:border-box;}
+#rightContainer{ width:98%; height:auto; padding-top:24px; padding-bottom:30px; padding-left:230px; box-sizing:border-box;}
 #footerContainer { position:fixed; z-index:30; left:0; bottom:0; width:100%; height:54px; background-color:#e7e9f5; border-top:1px solid #bdbfcc; border-bottom:1px solid #ededed;}
 
 

@@ -1,7 +1,5 @@
 <template>
   <div>
-  <head></head>
-  <left></left>
   <!-- s:rightContainer -->
   <div id="rightContainer">
     <!-- s:inner_container -->
@@ -329,16 +327,17 @@
   </div>
   <!-- e:rightContainer -->
   </div>
+
 </template>
 
 <script>
-import Left from './Left.vue'
-import Head from './head.vue'
+import Left from '../inc/left.vue'
+import incHead from '../inc/incHead.vue'
 
 export default {
   name: 'manage',
   components: {
-    Left, Head
+    Left, incHead
   }
 }
 </script>
